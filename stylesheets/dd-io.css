@@ -12,33 +12,40 @@ body {
   background-image: url("../images/diamond_upholstery.png");
   background-position: center center;
   border: 20px solid;
-  border-image-source: linear-gradient(-135deg, #317AB9, #deeffd);
+  border-image-source: linear-gradient(-135deg, #317ab9, #deeffd);
   border-image-slice: 1;
-  color: #317AB9;
+  color: #317ab9;
   display: flex;
   flex-direction: column;
+  font-family: "Arimo", sans-serif;
   justify-content: center;
   margin: 0;
   overflow: hidden;
   padding: 0;
 }
 
-h1,
-h2,
-h3 {
-  font-family: "Kameron", serif;
-}
-
 .statement__header {
+  font-family: "Kameron", serif;
   font-size: 24px;
 }
 
-p,
-a {
-  font-family: "Arimo", sans-serif;
-}
-
 .content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  justify-content: center;
+  margin: 20px;
   max-width: 800px;
   text-align: center;
+}
+
+.logo {
+  max-width: 50%;
+  min-width: 150px;
+  width: 100%;
+}
+
+.copyright {
+  font-weight: 600;
 }
