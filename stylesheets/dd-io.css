@@ -4,7 +4,7 @@
 */
 html,
 body {
-  height: 95.9vh;
+  height: 95.65vh;
 }
 
 body {
@@ -18,8 +18,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
 }
 
 h1,
@@ -28,7 +29,7 @@ h3 {
   font-family: "Kameron", serif;
 }
 
-h1 {
+.statement__header {
   font-size: 24px;
 }
 
