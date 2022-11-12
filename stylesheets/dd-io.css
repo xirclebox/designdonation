@@ -12,9 +12,9 @@ body {
   background-image: url("../images/diamond_upholstery.png");
   background-position: center center;
   border: 20px solid;
-  border-image-source: linear-gradient(-135deg, #8cbce5, #deeffd);
+  border-image-source: linear-gradient(-135deg, #317AB9, #deeffd);
   border-image-slice: 1;
-  color: #7fb1dd;
+  color: #317AB9;
   display: flex;
   flex-direction: column;
   justify-content: center;
