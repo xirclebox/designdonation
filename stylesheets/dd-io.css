@@ -4,7 +4,7 @@
 */
 html,
 body {
-  height: 95.65vh;
+  height: 96.53vh;
 }
 
 body {
@@ -25,7 +25,7 @@ body {
 }
 
 .statement__header {
-  font-family: "Kameron", serif;
+  font-weight: 400;
   font-size: 24px;
 }
 
@@ -44,6 +44,14 @@ body {
   max-width: 50%;
   min-width: 150px;
   width: 100%;
+}
+
+.name {
+  color: #317ab9;
+}
+
+.linkedin {
+  height: 32px;
 }
 
 .copyright {
