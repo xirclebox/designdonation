@@ -24,6 +24,10 @@ body {
   padding: 0;
 }
 
+:focus-visible {
+  outline: 3px solid #000;
+}
+
 .statement__header {
   font-weight: 400;
   font-size: 24px;
